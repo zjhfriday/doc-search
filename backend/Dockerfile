@@ -1,5 +1,8 @@
 FROM python:3.12-slim AS base
 
+# 换国内 Debian 镜像源（加速 apt-get）
+RUN sed -i 's|deb.debian.org|mirrors.aliyun.com|g' /etc/apt/sources.list.d/debian.sources
+
 # 系统依赖（OpenCV/FFmpeg/图片处理需要）
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgl1 \
