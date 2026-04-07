@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+frontend/dist/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-data/
+
+# Uploads & Models
+uploads/
+backend/uploads/
+backend/models/
+
+# Temp scripts
+*.ps1
+enable_result.txt
+sysinfo.txt
+wsl_install_result.txt
+docker_install_log.txt
+DockerDesktopInstaller.exe
+
+# pytest
+.pytest_cache/
