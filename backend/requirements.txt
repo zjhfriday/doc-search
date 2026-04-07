@@ -36,7 +36,7 @@ onnxruntime==1.20.1
 funasr==1.2.2
 
 # === AI - Utils ===
-pyscenedetect[opencv]==0.6.5
+scenedetect[opencv]==0.6.5
 imagededup==0.3.2
 pyiqa==0.1.12
 
