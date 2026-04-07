@@ -37,7 +37,7 @@ funasr==1.2.2
 
 # === AI - Utils ===
 scenedetect[opencv]==0.6.5
-imagededup==0.3.2
+imagededup==0.3.3.post2
 pyiqa==0.1.12
 
 # === Image & Video Processing ===
