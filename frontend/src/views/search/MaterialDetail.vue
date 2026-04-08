@@ -109,9 +109,8 @@ function securityType(level?: string) {
 }
 
 onMounted(async () => {
-  const _id = Number(route.params.id)
   loading.value = true
-  // TODO: const data = await materialApi.detail(_id)
+  // TODO: const data = await materialApi.detail(Number(route.params.id))
   // material.value = data
   loading.value = false
 })
