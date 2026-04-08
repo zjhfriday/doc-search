@@ -35,7 +35,7 @@ import { ref, onMounted } from 'vue'
 const loading = ref(false)
 const faces = ref<any[]>([])
 
-async function deleteFace(id: number) {
+async function deleteFace(_id: number) {
   // TODO: 删除人脸
 }
 

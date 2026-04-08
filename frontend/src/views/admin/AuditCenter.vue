@@ -31,13 +31,13 @@ import { ElMessage } from 'element-plus'
 const loading = ref(false)
 const materials = ref<any[]>([])
 
-async function approve(id: number) {
-  // TODO: await materialApi.approve(id)
+async function approve(_id: number) {
+  // TODO: await materialApi.approve(_id)
   ElMessage.success('已通过')
 }
 
-async function reject(id: number) {
-  // TODO: await materialApi.reject(id)
+async function reject(_id: number) {
+  // TODO: await materialApi.reject(_id)
   ElMessage.success('已驳回')
 }
 

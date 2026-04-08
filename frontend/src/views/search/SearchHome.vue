@@ -90,13 +90,13 @@ function searchByCategory(category: string) {
   router.push({ name: 'SearchResult', query: { q: category } })
 }
 
-function handleImageSearch(file: File) {
+function handleImageSearch(_file: File) {
   searchStore.searchType = 'image'
   router.push({ name: 'SearchResult', query: { type: 'image' } })
   return false // 阻止默认上传
 }
 
-function handleFaceSearch(file: File) {
+function handleFaceSearch(_file: File) {
   searchStore.searchType = 'face'
   router.push({ name: 'SearchResult', query: { type: 'face' } })
   return false
